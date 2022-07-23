@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<table>
+    <tr>
+        <th style="width: 100px">Nokia</th>
+        <th style="width: 100px">Iphone</th>
+    </tr>
+    <tr>
+        <td><p id="pinNokia">Pin 100</p></td>
+        <td><p id="pinIphone">Pin 100</p></td>
+    </tr>
+    <tr>
+        <td><button onclick="nokia.batDienThoai()">On</button></td>
+        <td><button onclick="iphone.batDienThoai()">On</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="nokia.tatDienThoai()">Off</button></td>
+        <td><button onclick="iphone.tatDienThoai()">Off</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="sacPinNokia()">Sạc pin</button></td>
+        <td><button onclick="sacPinIphone()">Sạc pin</button></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="nokiagui"></td>
+        <td><input type="text" id="iphonegui"></td>
+    </tr>
+    <tr>
+        <td><button onclick="nokiagui()">Send</button></td>
+        <td><button onclick="iphonegui()">Send</button></td>
+    </tr>
+    <tr>
+        <td><p id="hopThuDenNokia"></p></td>
+        <td><p id="hopThuDenIphone"></p></td>
+
+    </tr>
+</table>
+<script src="classDienThoai.js"></script>
+</body>
+</html>
